@@ -1,0 +1,91 @@
+﻿body {
+
+}
+.logo {
+    padding-left: 35%;
+    font-size: 40px;
+    font-family: 'Graphik';
+    color: black;
+    padding-top: 100px;
+    padding-bottom: 25px;
+  }
+
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    padding: 30px, 30px, 30px, 30px;
+  
+  }
+  .menu {
+    width: 550px;
+    padding-left: 25%;
+    
+  }
+  .cards-content {
+
+    width: 516px;
+    height: 541px;
+  }
+  .det {
+
+    width: 120px;
+    height: 30px;
+    font-family: 'Gilroy';
+    font-size: 18px;
+    color: blue;
+    background-color: transparent;
+    border: solid 3px blue;
+  }
+  .button {
+    text-align: center;
+
+  }
+  .cards li {
+
+    background-image: url('../img/Прямоугольник.jpg');
+    margin-top: 60px;
+  }
+  .cards-img {
+    width: 480px;
+    height:300px ;
+    padding-top: 16px;
+    padding-left: 21px;
+  }
+  .cards-list {
+    font-family: 'Gilroy';
+    font-size: 18px;
+    padding-left: 80px;
+  }
+  .cards {
+
+    flex-direction: row;
+    list-style-type:none;
+  }
+  .booking{
+
+    padding-left: 40%;
+  }
+  .booking_button{
+    padding-left: 10%;
+
+  }
+  .link {
+
+    padding-left: 20px;
+    color: black;
+    background-image: url("../img/return.png");
+    background-position: left center;
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+  }
+  .return{
+
+    padding-left: 25%;
+  }
+  .cards-title {
+    font-family: 'Gilroy';
+    font-size: 19px;
+    color: black;
+    padding-left: 45%;
+  }

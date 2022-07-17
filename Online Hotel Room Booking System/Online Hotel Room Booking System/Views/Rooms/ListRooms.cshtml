@@ -1,0 +1,25 @@
+﻿<div class=container>
+	<div>
+		<h1 class="logo">Hotel Room Booking</h1>
+	</div>
+
+	<div class="menu">
+		<ul class="cards">
+			@{
+				foreach (var room in Model.getAllRooms)
+				{
+					<li>
+						<div class="cards-content">
+							<img class="cards-img" src="@room.Img" alt="Номер: @room.Number" />
+							<p class="cards-title">Номер: @room.Number</p>
+							<p class="cards-list">Описание: @room.Desc</p>
+							<p class="cards-list">Цена: @room.Price.ToString()$/сутки</p>
+							<div><p class="button"><a href="/Rooms/Booking?id=@room.Id">Подробнее</a></p></div>
+
+						</div>
+					</li>
+				}
+			}
+		</ul>
+	</div>
+</div>
